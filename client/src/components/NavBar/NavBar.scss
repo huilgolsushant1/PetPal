@@ -1,0 +1,33 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 1%;
+    background-color: #fff;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.logoText {
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+nav {
+    flex: 1;
+    list-style: none;
+    text-align: end;
+}
+
+nav .li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 28px;
+    color: black;
+    text-decoration-line: none;
+    cursor: pointer;
+}
