@@ -15,6 +15,9 @@ dbConnections.connectMongoDB();
 app.use(morgan("dev"));
 app.use(cors({ origin: true, credentials: true }));
 
+//routes
+const testRoutes = require("./routes/example.js");
+app.use("/api", testRoutes);
 //port
 const port = process.env.PORT;
 
