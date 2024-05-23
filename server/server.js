@@ -1,14 +1,16 @@
 //imports
 const express = require("express");
-const mongoose = require("mongoose");
 const morgan = require("morgan");
 const cors = require("cors");
 require("dotenv").config();
+const dbConnections = require("./config/database.js");
 
 //app
 const app = express();
 
-//middleware
+//db
+dbConnections.connectMongoDB();
+//
 app.use(morgan("dev"));
 app.use(cors({ origin: true, credentials: true }));
 
