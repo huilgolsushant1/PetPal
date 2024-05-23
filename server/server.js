@@ -10,7 +10,8 @@ const app = express();
 
 //db
 dbConnections.connectMongoDB();
-//
+
+//middleware
 app.use(morgan("dev"));
 app.use(cors({ origin: true, credentials: true }));
 
