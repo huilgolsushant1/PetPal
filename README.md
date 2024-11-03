@@ -1,17 +1,19 @@
-# Pet Pal
-The app provides everything a pet needs in one convenient place. From adoption and events to vet bookings and daycare, we've got it all.
-* Adoption services
-* Pet events
-* Pet Services - (Veterinary and Grooming Centers)
-* Lost and found
-* Pet Facilities - (Daycares and Caretakers)
+# Pet Pal: Your All-in-One Pet Care Solution
 
+Pet Pal is a comprehensive app designed to cater to all your pet needs in one convenient place. Whether it's adoption, events, vet bookings, or daycare, we've got you covered.
 
-## The application features a secure authentication and authorization system for users and APIs, utilizing Google as a third-party Identity Provider (IDP). It implements the OAuth flow for login through the Google OAuth API, ensuring safe and streamlined user access.
+### Key Features:
+- **Adoption Services**: Find your perfect pet companion.
+- **Pet Events**: Stay updated with the latest pet events and activities.
+- **Pet Services**: Connect with top veterinary and grooming centers.
+- **Lost and Found**: Helping reunite lost pets with their owners.
+- **Pet Facilities**: Access to daycares and caretakers for your pets.
 
-## Technology Stack
-* React + Vite + Typescript
-* Node.js
-* MongoDB
-* Google Cloud Storage for file storage of uploaded images
-  
+### Secure Authentication:
+Our application ensures a safe and streamlined user experience with a secure authentication and authorization system. We utilize Google as a third-party Identity Provider (IDP) and implement the OAuth flow through the Google OAuth API for login.
+
+### Technology Stack:
+- **Frontend**: React + Vite + TypeScript for a responsive and dynamic user interface.
+- **Backend**: Node.js to handle server-side operations.
+- **Database**: MongoDB for robust and scalable data storage.
+- **File Storage**: Google Cloud Storage to securely store uploaded pet images.
